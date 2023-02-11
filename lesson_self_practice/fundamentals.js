@@ -45,8 +45,9 @@ console.log(typeof num1);
 //Lesson 4: Operators
 /* There are diffrent types of operators in javascript
 mathematical/arithemtic operators(+, -, *, /, %, **)
-comparison operators
-assignment operators, etc*/
+comparison operators(<, >, >=, <=)
+assignment operator(=, +=, ×=, -=, /=, ++, --)
+etc*/
 
 //TASK 3 : USING THE ARITHEMETIC OPERATORS TO PERFORM BASIC CALCULATIONS
 
@@ -69,3 +70,22 @@ const principal = 23;
 const peg = 10;
 result = principal / gift;
 console.log(result);
+
+// the + operator can also be used to concatenate variables
+// eg
+let me = "adult";
+let you = "teenager";
+console.log(me + ' ' + you);
+
+//The assignment operator is used to assign values to variables
+//e.g
+
+let light = "good";
+console.log ("light is:" + ' ' + light);
+
+//The comparison operator ia used to make comparison and give a boolean value
+//e.g
+
+let broAge = 50;
+let sisAge = 70;
+console.log(broAge > sisAge);
