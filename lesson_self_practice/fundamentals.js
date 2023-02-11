@@ -42,3 +42,30 @@ console.log(typeof numS);
 console.log(typeof num1);
 
 
+//Lesson 4: Operators
+/* There are diffrent types of operators in javascript
+mathematical/arithemtic operators(+, -, *, /, %, **)
+comparison operators
+assignment operators, etc*/
+
+//TASK 3 : USING THE ARITHEMETIC OPERATORS TO PERFORM BASIC CALCULATIONS
+
+const age1 = 21;
+const num2 = 18;
+result = age1 - num2;
+console.log(result)
+
+const game = 33;
+const time = 23;
+result = game + time;
+console.log(result);
+
+const made = 20;
+const gift = 33;
+result = made * gift;
+console.log(result);
+
+const principal = 23;
+const peg = 10;
+result = principal / gift;
+console.log(result);
