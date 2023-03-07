@@ -1,9 +1,9 @@
 //BMI CALCULATOR
 function bmi_calculator()
 {
-let weight = parseInt(prompt("Enter your weight"));
+let weight = Number(prompt("Enter your weight"));
 
-let height = parseInt(prompt("Enter your height"));
+let height = Number(prompt("Enter your height"));
  
 let Bmi = weight / (height * height);
 
